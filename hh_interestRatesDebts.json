@@ -2,17 +2,17 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
          
     "title": {
-        "text": "UK - household interest rates",
-        "subtitle":["Source: Bank of England. Series: IUMCCTL, IUMTLMV",""],
-        "subtitleFontStyle":"italic",
-        "subtitleFontSize":10,
-        "anchor": "start",
-        "color": "#cbc7cf",
-        "subtitleColor":"#cbc7cf"},
-    
-    "config": {
-    "background":"#122b39",
-    "view": {"stroke": "transparent"}},
+      "text": "UK - household interest rates",
+      "subtitle":["Source: Bank of England. Series: IUMCCTL, IUMTLMV",""],
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "#cbc7cf",
+      "subtitleColor":"#cbc7cf"},
+  
+  "config": {
+  "background":"#122b39",
+  "view": {"stroke": "transparent"}},
         
     "data": {
         "url": "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/data/interestRatesUK_household.csv"

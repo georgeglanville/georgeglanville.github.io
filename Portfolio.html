@@ -49,7 +49,9 @@
     <div class="myWeek3">
         <h1>Week 3 Portfolio Work</h1>
         <div class="chart" id="Chart5"></div>
-        <p> The Chart above illustrates the evolution of the Pound to Dollar Exchange Rate from 2007 to 2022. </p>
+        <p> The Chart above illustrates the progession of both the Pound to Dollar Exchange Rate, and the Pound to Euro Exchange Rate, from 2007 to 2022. </p>
+        <div class="chart" id="Chart6"></div>
+        <p> The Chart above has been modified from a scatter plot to a line chart. I changed the visual encoding as the modified chart is more precise; the evolution of data is far clearer.</p>
     </div>
 </body>
 
@@ -60,7 +62,8 @@
     var myChart2 = "chartextreme4.json";
     var myChart3 = "IMFlending.json";
     var myChart4 = "IMFpcGDP.json";
-    var myChart5 = "Exchange Rate.json"
+    var myChart5 = "exchangerate.json"
+    var myChart6 = "exchangeratemodified.json"
 
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
@@ -68,6 +71,7 @@
     vegaEmbed('#Chart3', myChart3);
     vegaEmbed('#Chart4', myChart4);
     vegaEmbed('#Chart5', myChart5);
+    vegaEmbed('#Chart6', myChart6);
 </script>
 
 </html>

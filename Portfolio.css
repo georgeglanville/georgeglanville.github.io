@@ -102,7 +102,21 @@ h1, h2, h3, p{
 
 #Chart5{
     background-color: rgb(255, 253, 255);
-    width:295px;
+    width:319px;
+    height:280px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    display: block;
+    margin: 0 auto; 
+}
+
+#Chart6{
+    background-color: rgb(255, 253, 255);
+    width:319px;
     height:280px;
     border-width: 2px;
     border-style: solid;

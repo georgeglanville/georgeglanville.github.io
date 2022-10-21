@@ -53,6 +53,14 @@
         <div class="chart" id="Chart6"></div>
         <p> The Chart above has been modified from a scatter plot to a line chart. I changed the visual encoding as the modified chart is more precise; the evolution of data is far clearer.</p>
     </div>
+    <div class="myWeek4">
+        <h1>Week 4 Portfolio Work</h1>
+        <h2> FTSE 100 Top 20 Risers, 21/10/22</h2>
+        <a href="https://colab.research.google.com/drive/1HKv_ortQZGQNZeXBoJFpSXVgzYS9G6eR?usp=sharing" style=display:inline-block; id="link3">FTSE 100</a>
+        <p> Click the link above to view code behind the scraper.</p>
+        <div class="chart" id="Chart7"></div>
+        <p>This website served as a good website to scrape data from as it had a clear embedded table and no restrictive code preventing scrapers.</p>
+    </div>
 </body>
 
 
@@ -64,6 +72,7 @@
     var myChart4 = "IMFpcGDP.json";
     var myChart5 = "exchangerate.json"
     var myChart6 = "exchangeratemodified.json"
+    var myChart7= "ftse.json"
 
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
@@ -72,6 +81,7 @@
     vegaEmbed('#Chart4', myChart4);
     vegaEmbed('#Chart5', myChart5);
     vegaEmbed('#Chart6', myChart6);
+    vegaEmbed('#Chart7', myChart7);
 </script>
 
 </html>

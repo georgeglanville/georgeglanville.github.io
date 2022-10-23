@@ -8000,7 +8000,7 @@
   "encoding": {
     "x": {"field": "Date", "type": "temporal"},
     "y": {"field": "Value", "type": "quantitative"},
-    "strokeOpacity": {"field": "Currency", "type": "nominal"}
+    "column": {"field": "Currency", "type": "nominal"}
   },
   "config": {}
 }

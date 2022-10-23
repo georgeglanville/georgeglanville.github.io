@@ -7996,11 +7996,11 @@
       {"Date": "02-Jan-07", "Value": 1.4859, "Currency": "Euro"}
     ]
   },
-  "mark": "point",
+  "mark": "line",
   "encoding": {
     "x": {"field": "Date", "type": "temporal"},
     "y": {"field": "Value", "type": "quantitative"},
-    "color": {"field": "Currency", "type": "nominal"}
+    "strokeOpacity": {"field": "Currency", "type": "nominal"}
   },
   "config": {}
 }

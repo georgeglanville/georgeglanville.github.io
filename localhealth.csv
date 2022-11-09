@@ -1,0 +1,433 @@
+﻿E-code,ONS Code,Local authority,Net Current Expenditure
+E0101,E06000022,Bath & North East Somerset UA,9107
+E0102,E06000023,Bristol UA,35089
+E0103,E06000025,South Gloucestershire UA,12526
+E0104,E06000024,North Somerset UA,10070
+E0201,E06000032,Luton UA,17138
+E0202,E06000055,Bedford UA,9317
+E0203,E06000056,Central Bedfordshire UA,11304
+E0301,E06000036,Bracknell Forest UA,5525
+E0302,E06000037,West Berkshire UA,7181
+E0303,E06000038,Reading UA,10671
+E0304,E06000039,Slough UA,6764
+E0305,E06000040,Windsor & Maidenhead UA,5424
+E0306,E06000041,Wokingham UA,5383
+E0401,E06000042,Milton Keynes UA,10486
+E0402,E06000060,Buckinghamshire UA,19396
+E0501,E06000031,Peterborough UA,11909
+E0521,E10000003,Cambridgeshire CC,30363
+E0531,E07000008,Cambridge,-8
+E0532,E07000009,East Cambridgeshire,0
+E0533,E07000010,Fenland,-607
+E0536,E07000012,South Cambridgeshire,92
+E0551,E07000011,Huntingdonshire,0
+E0601,E06000006,Halton UA,11950
+E0602,E06000007,Warrington UA,11434
+E0603,E06000049,Cheshire East UA,17177
+E0604,E06000050,Cheshire West and Chester UA,18454
+E0701,E06000001,Hartlepool UA,11843
+E0702,E06000002,Middlesbrough UA,24800
+E0703,E06000003,Redcar & Cleveland UA,15156
+E0704,E06000004,Stockton-on-Tees UA,17947
+E0801,E06000052,Cornwall UA,28925
+E0920,E10000006,Cumbria CC,18417
+E0931,E07000026,Allerdale,195
+E0932,E07000027,Barrow-in-Furness,-8
+E0933,E07000028,Carlisle,0
+E0934,E07000029,Copeland,0
+E0935,E07000030,Eden,0
+E0936,E07000031,South Lakeland,316
+E1001,E06000015,Derby City UA,19615
+E1021,E10000007,Derbyshire CC,45665
+E1031,E07000032,Amber Valley,210
+E1032,E07000033,Bolsover,0
+E1033,E07000034,Chesterfield,58
+E1035,E07000035,Derbyshire Dales,0
+E1036,E07000036,Erewash,0
+E1037,E07000037,High Peak,0
+E1038,E07000038,North East Derbyshire,0
+E1039,E07000039,South Derbyshire,0
+E1101,E06000026,Plymouth UA,17995
+E1102,E06000027,Torbay UA,12947
+E1121,E10000008,Devon CC,28046
+E1131,E07000040,East Devon,0
+E1132,E07000041,Exeter,0
+E1133,E07000042,Mid Devon,6
+E1134,E07000043,North Devon,0
+E1136,E07000044,South Hams,0
+E1137,E07000045,Teignbridge,0
+E1139,E07000046,Torridge,0
+E1140,E07000047,West Devon,0
+E1203,E06000059,Dorset UA,13038
+E1204,E06000058,"Bournemouth, Christchurch and Poole UA",22762
+E1301,E06000005,Darlington UA,10176
+E1302,E06000047,Durham UA,48792
+E1401,E06000043,Brighton & Hove UA,22903
+E1421,E10000011,East Sussex CC,27109
+E1432,E07000061,Eastbourne,0
+E1433,E07000062,Hastings,0
+E1435,E07000063,Lewes,0
+E1436,E07000064,Rother,0
+E1437,E07000065,Wealden,21
+E1501,E06000033,Southend-on-Sea UA,13912
+E1502,E06000034,Thurrock UA,12565
+E1521,E10000012,Essex CC,80580
+E1531,E07000066,Basildon,229
+E1532,E07000067,Braintree,1392
+E1533,E07000068,Brentwood,18
+E1534,E07000069,Castle Point,0
+E1535,E07000070,Chelmsford,0
+E1536,E07000071,Colchester,0
+E1537,E07000072,Epping Forest,0
+E1538,E07000073,Harlow,-116
+E1539,E07000074,Maldon DC,0
+E1540,E07000075,Rochford,0
+E1542,E07000076,Tendring DC,211
+E1544,E07000077,Uttlesford,221
+E1620,E10000013,Gloucestershire CC,27824
+E1631,E07000078,Cheltenham,0
+E1632,E07000079,Cotswold,0
+E1633,E07000080,Forest of Dean,0
+E1634,E07000081,Gloucester,3
+E1635,E07000082,Stroud,0
+E1636,E07000083,Tewkesbury,0
+E1701,E06000044,Portsmouth UA,21425
+E1702,E06000045,Southampton UA,18943
+E1721,E10000014,Hampshire CC,67433
+E1731,E07000084,Basingstoke & Deane,0
+E1732,E07000085,East Hampshire,0
+E1733,E07000086,Eastleigh,0
+E1734,E07000087,Fareham,0
+E1735,E07000088,Gosport,130
+E1736,E07000089,Hart DC,52
+E1737,E07000090,Havant,0
+E1738,E07000091,New Forest,0
+E1740,E07000092,Rushmoor,-51
+E1742,E07000093,Test Valley,132
+E1743,E07000094,Winchester,0
+E1801,E06000019,Herefordshire UA,8519
+E1821,E10000034,Worcestershire CC,34353
+E1831,E07000234,Bromsgrove,…
+E1835,E07000236,Redditch BC,…
+E1837,E07000237,Worcester,0
+E1838,E07000238,Wychavon,0
+E1839,E07000239,Wyre Forest,0
+E1851,E07000235,Malvern Hills,0
+E1920,E10000015,Hertfordshire CC,52960
+E1931,E07000095,Broxbourne,0
+E1932,E07000096,Dacorum,0
+E1933,E07000242,East Hertfordshire,0
+E1934,E07000098,Hertsmere,0
+E1935,E07000099,North Hertfordshire,29
+E1936,E07000240,St Albans,5069
+E1937,E07000243,Stevenage,147
+E1938,E07000102,Three Rivers,0
+E1939,E07000103,Watford,0
+E1940,E07000241,Welwyn Hatfield,0
+E2001,E06000011,East Riding of Yorkshire UA,16211
+E2002,E06000010,Kingston-upon-Hull UA,30446
+E2003,E06000012,North East Lincolnshire UA,14086
+E2004,E06000013,North Lincolnshire UA,14018
+E2101,E06000046,Isle of Wight UA,9038
+E2201,E06000035,Medway Towns UA,26123
+E2221,E10000016,Kent CC,81809
+E2231,E07000105,Ashford,0
+E2232,E07000106,Canterbury,0
+E2233,E07000107,Dartford,0
+E2234,E07000108,Dover,153
+E2236,E07000109,Gravesham,0
+E2237,E07000110,Maidstone,88
+E2239,E07000111,Sevenoaks,70
+E2240,E07000112,Folkestone & Hythe,0
+E2241,E07000113,Swale,44
+E2242,E07000114,Thanet,0
+E2243,E07000115,Tonbridge & Malling,55
+E2244,E07000116,Tunbridge Wells,0
+E2301,E06000008,Blackburn with Darwen UA,19508
+E2302,E06000009,Blackpool UA,23221
+E2321,E10000017,Lancashire CC,72588
+E2333,E07000117,Burnley,0
+E2334,E07000118,Chorley,0
+E2335,E07000119,Fylde,0
+E2336,E07000120,Hyndburn BC,0
+E2337,E07000121,Lancaster,0
+E2338,E07000122,Pendle,0
+E2339,E07000123,Preston,0
+E2340,E07000124,Ribble Valley,0
+E2341,E07000125,Rossendale,0
+E2342,E07000126,South Ribble,0
+E2343,E07000127,West Lancashire,0
+E2344,E07000128,Wyre,-1498
+E2401,E06000016,Leicester City UA,43683
+E2402,E06000017,Rutland UA,1599
+E2421,E10000018,Leicestershire CC,33470
+E2431,E07000129,Blaby,200
+E2432,E07000130,Charnwood BC,0
+E2433,E07000131,Harborough,138
+E2434,E07000132,Hinckley & Bosworth,0
+E2436,E07000133,Melton,951
+E2437,E07000134,North West Leicestershire,3
+E2438,E07000135,Oadby & Wigston,1490
+E2520,E10000019,Lincolnshire CC,41877
+E2531,E07000136,Boston BC,139
+E2532,E07000137,East Lindsey,-200
+E2533,E07000138,Lincoln City,283
+E2534,E07000139,North Kesteven,0
+E2535,E07000140,South Holland,0
+E2536,E07000141,South Kesteven,0
+E2537,E07000142,West Lindsey,-77
+E2620,E10000020,Norfolk CC,49775
+E2631,E07000143,Breckland,0
+E2632,E07000144,Broadland,221
+E2633,E07000145,Great Yarmouth,0
+E2634,E07000146,King's Lynn & West Norfolk,0
+E2635,E07000147,North Norfolk,0
+E2636,E07000148,Norwich City,0
+E2637,E07000149,South Norfolk,219
+E2701,E06000014,York UA,11171
+E2721,E10000023,North Yorkshire CC,26570
+E2731,E07000163,Craven,0
+E2732,E07000164,Hambleton,0
+E2734,E07000166,Richmondshire DC,0
+E2736,E07000168,Scarborough,0
+E2753,E07000165,Harrogate,0
+E2755,E07000167,Ryedale DC,0
+E2757,E07000169,Selby DC,0
+E2820,E10000021,Northamptonshire CC,41768
+E2831,E07000150,Corby,0
+E2832,E07000151,Daventry DC,0
+E2833,E07000152,East Northamptonshire,0
+E2834,E07000153,Kettering,0
+E2835,E07000154,Northampton,0
+E2836,E07000155,South Northamptonshire,0
+E2837,E07000156,Wellingborough,0
+E2901,E06000057,Northumberland UA,22119
+E3001,E06000018,Nottingham City UA,34266
+E3021,E10000024,Nottinghamshire CC,47993
+E3031,E07000170,Ashfield,0
+E3032,E07000171,Bassetlaw,0
+E3033,E07000172,Broxtowe,734
+E3034,E07000173,Gedling,0
+E3035,E07000174,Mansfield,0
+E3036,E07000175,Newark & Sherwood ,0
+E3038,E07000176,Rushcliffe,0
+E3120,E10000025,Oxfordshire CC,31935
+E3131,E07000177,Cherwell,0
+E3132,E07000178,Oxford,0
+E3133,E07000179,South Oxfordshire,0
+E3134,E07000180,Vale of White Horse DC,0
+E3135,E07000181,West Oxfordshire,0
+E3201,E06000020,Telford & the Wrekin UA,13129
+E3202,E06000051,Shropshire UA,12763
+E3320,E10000027,Somerset CC,28569
+E3331,E07000187,Mendip,995
+E3332,E07000188,Sedgemoor,0
+E3334,E07000189,South Somerset,0
+E3336,E07000246,Somerset West and Taunton,0
+E3401,E06000021,Stoke-on-Trent UA,40191
+E3421,E10000028,Staffordshire CC,39719
+E3431,E07000192,Cannock Chase,0
+E3432,E07000193,East Staffordshire,116
+E3433,E07000194,Lichfield,121
+E3434,E07000195,Newcastle-under-Lyme,0
+E3435,E07000196,South Staffordshire,-57
+E3436,E07000197,Stafford BC,93
+E3437,E07000198,Staffordshire Moorlands,0
+E3439,E07000199,Tamworth,0
+E3520,E10000029,Suffolk CC,41268
+E3531,E07000200,Babergh,0
+E3533,E07000202,Ipswich,0
+E3534,E07000203,Mid Suffolk,0
+E3538,E07000244,East Suffolk,-73
+E3539,E07000245,West Suffolk,0
+E3620,E10000030,Surrey CC,38008
+E3631,E07000207,Elmbridge,0
+E3632,E07000208,Epsom & Ewell,12
+E3633,E07000209,Guildford,0
+E3634,E07000210,Mole Valley,0
+E3635,E07000211,Reigate and Banstead,0
+E3636,E07000212,Runnymede,0
+E3637,E07000213,Spelthorne,0
+E3638,E07000214,Surrey Heath,0
+E3639,E07000215,Tandridge,27
+E3640,E07000216,Waverley,3
+E3641,E07000217,Woking BC,0
+E3720,E10000031,Warwickshire CC,34016
+E3731,E07000218,North Warwickshire,0
+E3732,E07000219,Nuneaton & Bedworth,2228
+E3733,E07000220,Rugby,0
+E3734,E07000221,Stratford-on-Avon,0
+E3735,E07000222,Warwick,0
+E3820,E10000032,West Sussex CC,38090
+E3831,E07000223,Adur,0
+E3832,E07000224,Arun,0
+E3833,E07000225,Chichester,111
+E3834,E07000226,Crawley,14
+E3835,E07000227,Horsham,131
+E3836,E07000228,Mid Sussex,121
+E3837,E07000229,Worthing,0
+E3901,E06000030,Swindon UA,5958
+E3902,E06000054,Wiltshire UA,25219
+E4001,E06000053,Isles of Scilly,122
+E4201,E08000001,Bolton,17453
+E4202,E08000002,Bury MBC,9328
+E4203,E08000003,Manchester,60583
+E4204,E08000004,Oldham,21172
+E4205,E08000005,Rochdale,20845
+E4206,E08000006,Salford,21400
+E4207,E08000007,Stockport MBC,18192
+E4208,E08000008,Tameside,15248
+E4209,E08000009,Trafford,12553
+E4210,E08000010,Wigan MBC,32768
+E4301,E08000011,Knowsley,21384
+E4302,E08000012,Liverpool,53184
+E4303,E08000013,St Helens MBC,17604
+E4304,E08000014,Sefton,23580
+E4305,E08000015,Wirral,46715
+E4401,E08000016,Barnsley,38425
+E4402,E08000017,Doncaster,27414
+E4403,E08000018,Rotherham,18050
+E4404,E08000019,Sheffield,38229
+E4501,E08000037,Gateshead,17582
+E4502,E08000021,Newcastle,24920
+E4503,E08000022,North Tyneside,17849
+E4504,E08000023,South Tyneside,15923
+E4505,E08000024,Sunderland,22350
+E4601,E08000025,Birmingham,87305
+E4602,E08000026,Coventry,26299
+E4603,E08000027,Dudley,26562
+E4604,E08000028,Sandwell,23481
+E4605,E08000029,Solihull,11429
+E4606,E08000030,Walsall,20583
+E4607,E08000031,Wolverhampton,21568
+E4701,E08000032,Bradford,48261
+E4702,E08000033,Calderdale,14268
+E4703,E08000034,Kirklees,27187
+E4704,E08000035,Leeds,71017
+E4705,E08000036,Wakefield,29513
+E5010,E09000001,City of London,2063
+E5011,E09000007,Camden,27351
+E5012,E09000011,Greenwich,25639
+E5013,E09000012,Hackney,35373
+E5014,E09000013,Hammersmith & Fulham,22077
+E5015,E09000019,Islington,28211
+E5016,E09000020,Kensington & Chelsea,26589
+E5017,E09000022,Lambeth,32450
+E5018,E09000023,Lewisham,25702
+E5019,E09000028,Southwark,22622
+E5020,E09000030,Tower Hamlets,40577
+E5021,E09000032,Wandsworth,28923
+E5022,E09000033,Westminster,33236
+E5030,E09000002,Barking & Dagenham,15761
+E5031,E09000003,Barnet,25930
+E5032,E09000004,Bexley,10804
+E5033,E09000005,Brent,23925
+E5034,E09000006,Bromley,16006
+E5035,E09000008,Croydon,56669
+E5036,E09000009,Ealing,27347
+E5037,E09000010,Enfield,17290
+E5038,E09000014,Haringey,22410
+E5039,E09000015,Harrow,10604
+E5040,E09000016,Havering,15654
+E5041,E09000017,Hillingdon,22653
+E5042,E09000018,Hounslow,18895
+E5043,E09000021,Kingston Upon Thames,10360
+E5044,E09000024,Merton,11933
+E5045,E09000025,Newham,30551
+E5046,E09000026,Redbridge,17037
+E5047,E09000027,Richmond upon Thames,10803
+E5048,E09000029,Sutton,9534
+E5049,E09000031,Waltham Forest,19823
+E5100,E12000007,Greater London Authority,1094
+E6101,E31000001,Avon Combined Fire and Rescue Authority,0
+E6102,E31000002,Bedfordshire Combined Fire and Rescue Authority,0
+E6103,E31000003,Berkshire Combined Fire and Rescue Authority,0
+E6104,E31000004,Buckinghamshire Combined Fire and Rescue Authority,0
+E6105,E31000005,Cambridgeshire Combined Fire and Rescue Authority,0
+E6106,E31000006,Cheshire Combined Fire and Rescue Authority,0
+E6107,E31000007,Cleveland Combined Fire and Rescue Authority,0
+E6110,E31000010,Derbyshire Combined Fire and Rescue Authority,0
+E6113,E31000013,Durham Combined Fire and Rescue Authority,0
+E6114,E31000014,East Sussex Combined Fire and Rescue Authority,0
+E6115,E31000015,Essex Combined Fire and Rescue Authority,0
+E6117,E31000017,Hampshire Combined Fire and Rescue Authority,0
+E6118,E31000018,Hereford & Worcester Combined Fire and Rescue Authority,0
+E6120,E31000020,Humberside Combined Fire and Rescue Authority,0
+E6122,E31000022,Kent Combined Fire and Rescue Authority,0
+E6123,E31000023,Lancashire Combined Fire and Rescue Authority,0
+E6124,E31000024,Leicestershire Combined Fire and Rescue Authority,0
+E6127,E31000027,North Yorkshire Combined Fire and Rescue Authority,0
+E6128,E31000028,"Northamptonshire Police, Fire and Crime Commissioner Fire and Rescue Authority",0
+E6130,E31000030,Nottinghamshire Combined Fire and Rescue Authority,0
+E6132,E31000032,Shropshire Combined Fire and Rescue Authority,0
+E6134,E31000033,Staffordshire Combined Fire and Rescue Authority,0
+E6143,E31000041,Merseyside Fire and Rescue Authority,0
+E6144,E31000042,South Yorkshire Fire and Rescue Authority,0
+E6145,E31000043,Tyne and Wear Fire and Rescue Authority,0
+E6146,E31000044,West Midlands Fire and Rescue Authority,0
+E6147,E31000045,West Yorkshire Fire and Rescue Authority,0
+E6161,E31000011,Devon and Somerset Combined Fire and Rescue Authority,0
+E6162,E31000047,Dorset and Wiltshire Fire and Rescue Authority,0
+E6201,E50000001,East London Waste Authority,0
+E6204,E50000006,Merseyside Waste Authority,0
+E6205,E50000002,North London Waste Authority,0
+E6206,E50000004,Western Riverside Waste Authority,0
+E6207,E50000003,West London Waste Authority,0
+E6346,E47000007,West Midlands Combined Authority,0
+E6348,E47000001,Greater Manchester Combined Authority,0
+E6349,E47000004,The Liverpool City Region Combined Authority,0
+E6350,E47000002,The Sheffield City Region Combined Authority,0
+E6353,E47000003,The West Yorkshire Combined Authority,0
+E6354,E47000009,West of England Combined Authority,0
+E6355,E47000006,Tees Valley Combined Authority,0
+E6356,E47000008,Cambridgeshire and Peterborough Combined Authority,0
+E6357,E47000010,North East Combined Authority post Nov 2018,0
+E6358,E47000011,North of Tyne Combined Authority,0
+E6401,E26000001,Dartmoor National Park Authority,0
+E6402,E26000002,Exmoor National Park Authority,0
+E6403,E26000011,Lake District National Park Authority,0
+E6404,E26000005,North York Moors National Park Authority,0
+E6405,E26000004,Northumberland National Park Authority,0
+E6406,E26000006,Peak District National Park Authority,0
+E6407,E26000012,Yorkshire Dales National Park Authority,0
+E6408,E26000007,The Broads Authority,0
+E6409,E26000009,New Forest National Park Authority,0
+E6410,E26000010,South Downs National Park Authority,0
+E6803,E6803,Lee Valley Regional Park Authority,0
+E7002,E23000026,Bedfordshire Police and Crime Commissioner and Chief Constable,0
+E7005,E23000023,Cambridgeshire Police and Crime Commissioner and Chief Constable,0
+E7006,E23000006,Cheshire Police and Crime Commissioner and Chief Constable,0
+E7007,E23000013,Cleveland Police and Crime Commissioner and Chief Constable,0
+E7009,E23000002,Cumbria Police and Crime Commissioner and Chief Constable,0
+E7010,E23000018,Derbyshire Police and Crime Commissioner and Chief Constable,0
+E7012,E23000039,Dorset Police and Crime Commissioner and Chief Constable,0
+E7013,E23000008,Durham Police and Crime Commissioner and Chief Constable,0
+E7015,E23000028,Essex Police and Crime Commissioner and Chief Constable,0
+E7016,E23000037,Gloucestershire Police and Crime Commissioner and Chief Constable,0
+E7019,E23000027,Hertfordshire Police and Crime Commissioner and Chief Constable,0
+E7020,E23000012,Humberside Police and Crime Commissioner and Chief Constable,0
+E7022,E23000032,Kent Police and Crime Commissioner and Chief Constable,0
+E7023,E23000003,Lancashire Police and Crime Commissioner and Chief Constable,0
+E7024,E23000021,Leicestershire Police and Crime Commissioner and Chief Constable,0
+E7025,E23000020,Lincolnshire Police and Crime Commissioner and Chief Constable,0
+E7026,E23000024,Norfolk Police and Crime Commissioner and Chief Constable,0
+E7027,E23000009,North Yorkshire Police and Crime Commissioner and Chief Constable,0
+E7028,E23000022,Northamptonshire Police and Crime Commissioner and Chief Constable,0
+E7030,E23000019,Nottinghamshire Police and Crime Commissioner and Chief Constable,0
+E7034,E23000015,Staffordshire Police and Crime Commissioner and Chief Constable,0
+E7035,E23000025,Suffolk Police and Crime Commissioner and Chief Constable,0
+E7036,E23000031,Surrey Police and Crime Commissioner and Chief Constable,0
+E7037,E23000017,Warwickshire Police and Crime Commissioner and Chief Constable,0
+E7039,E23000038,Wiltshire Police and Crime Commissioner and Chief Constable,0
+E7042,E23000005,Greater Manchester Police and Crime Commissioner and Chief Constable,0
+E7043,E23000004,Merseyside Police and Crime Commissioner and Chief Constable,0
+E7044,E23000011,South Yorkshire Police and Crime Commissioner and Chief Constable,0
+E7045,E23000007,Northumbria Police and Crime Commissioner and Chief Constable,0
+E7046,E23000014,West Midlands Police and Crime Commissioner and Chief Constable,0
+E7047,E23000010,West Yorkshire Police and Crime Commissioner and Chief Constable,0
+E7050,E23000036,Avon & Somerset Police and Crime Commissioner and Chief Constable,0
+E7051,E23000035,Devon & Cornwall Police and Crime Commissioner and Chief Constable,0
+E7052,E23000030,Hampshire Police and Crime Commissioner and Chief Constable,0
+E7053,E23000033,Sussex Police and Crime Commissioner and Chief Constable,0
+E7054,E23000029,Thames Valley Police and Crime Commissioner and Chief Constable,0
+E7055,E23000016,West Mercia Police and Crime Commissioner and Chief Constable,0

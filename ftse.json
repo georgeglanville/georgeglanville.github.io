@@ -1,0 +1,167 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+  "title": {
+    "text": "Current Share Price of Top 20 Risers, FTSE 100",
+    "subtitle":["Data as of 21/10/22, Source: Hargreaves Lansdown."],
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start",
+    "color": "#000000",
+    "subtitleColor":"#000000"},
+
+"config": {
+"background":"#122b39",
+"view": {"stroke": "transparent"}},
+
+  "data": {
+    "values": [
+      {
+        "EPIC": "GLEN",
+        "Name": "Glencore plc",
+        "Current price (p)": 498.38,
+        "Day change": 13.65,
+        "Day change.1": "+2.82%"
+      },
+      {
+        "EPIC": "AAL",
+        "Name": "Anglo American",
+        "Current price (p)": 2719.25,
+        "Day change": 66,
+        "Day change.1": "+2.49%"
+      },
+      {
+        "EPIC": "ANTO",
+        "Name": "Antofagasta plc",
+        "Current price (p)": 1140.75,
+        "Day change": 24,
+        "Day change.1": "+2.15%"
+      },
+      {
+        "EPIC": "GSK",
+        "Name": "GSK plc",
+        "Current price (p)": 1388.8,
+        "Day change": 24,
+        "Day change.1": "+1.76%"
+      },
+      {
+        "EPIC": "EDV",
+        "Name": "Endeavour Mining plc",
+        "Current price (p)": 1537,
+        "Day change": 25,
+        "Day change.1": "+1.65%"
+      },
+      {
+        "EPIC": "TSCO",
+        "Name": "Tesco plc",
+        "Current price (p)": 209.95,
+        "Day change": 2.6,
+        "Day change.1": "+1.25%"
+      },
+      {
+        "EPIC": "RIO",
+        "Name": "Rio Tinto plc",
+        "Current price (p)": 4783.5,
+        "Day change": 53.5,
+        "Day change.1": "+1.13%"
+      },
+      {
+        "EPIC": "ULVR",
+        "Name": "Unilever plc",
+        "Current price (p)": 3953.5,
+        "Day change": 43.5,
+        "Day change.1": "+1.11%"
+      },
+      {
+        "EPIC": "STAN",
+        "Name": "Standard Chartered plc",
+        "Current price (p)": 564.8,
+        "Day change": 6,
+        "Day change.1": "+1.07%"
+      },
+      {
+        "EPIC": "PSH",
+        "Name": "Pershing Square Holdings Ltd",
+        "Current price (p)": 2782.5,
+        "Day change": 25,
+        "Day change.1": "+0.91%"
+      },
+      {
+        "EPIC": "HSBA",
+        "Name": "HSBC Holdings plc",
+        "Current price (p)": 477.02,
+        "Day change": 4.3,
+        "Day change.1": "+0.91%"
+      },
+      {
+        "EPIC": "SHEL",
+        "Name": "Shell plc",
+        "Current price (p)": 2340.5,
+        "Day change": 20.5,
+        "Day change.1": "+0.88%"
+      },
+      {
+        "EPIC": "STJ",
+        "Name": "St James's Place Plc",
+        "Current price (p)": 1007,
+        "Day change": 8,
+        "Day change.1": "+0.80%"
+      },
+      {
+        "EPIC": "CPG",
+        "Name": "Compass Group plc",
+        "Current price (p)": 1817.5,
+        "Day change": 14,
+        "Day change.1": "+0.78%"
+      },
+      {
+        "EPIC": "SBRY",
+        "Name": "Sainsbury (J) plc",
+        "Current price (p)": 186.15,
+        "Day change": 1.25,
+        "Day change.1": "+0.68%"
+      },
+      {
+        "EPIC": "BP.",
+        "Name": "BP Plc",
+        "Current price (p)": 463.82,
+        "Day change": 2.9,
+        "Day change.1": "+0.63%"
+      },
+      {
+        "EPIC": "MNDI",
+        "Name": "Mondi Plc",
+        "Current price (p)": 1466.5,
+        "Day change": 9,
+        "Day change.1": "+0.62%"
+      },
+      {
+        "EPIC": "AZN",
+        "Name": "AstraZeneca plc",
+        "Current price (p)": 9711,
+        "Day change": 57,
+        "Day change.1": "+0.59%"
+      },
+      {
+        "EPIC": "HLN",
+        "Name": "Haleon plc",
+        "Current price (p)": 273.07,
+        "Day change": 1.55,
+        "Day change.1": "+0.57%"
+      },
+      {
+        "EPIC": "IMB",
+        "Name": "Imperial Brands Group",
+        "Current price (p)": 2045.5,
+        "Day change": 11,
+        "Day change.1": "+0.54%"
+      }
+    ]
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "EPIC", "type": "nominal", "axis": {"labelAngle": 270}},
+    "y": {"field": "Current price (p)", "type": "quantitative"}
+  },
+  "config": {}
+}

@@ -56,10 +56,29 @@
     <div class="myWeek4">
         <h1>Week 4 Portfolio Work</h1>
         <h2> FTSE 100 Top 20 Risers, 21/10/22</h2>
-        <a href="https://colab.research.google.com/drive/1HKv_ortQZGQNZeXBoJFpSXVgzYS9G6eR?usp=sharing" style=display:inline-block; id="link3">Code</a>
-        <p> Click the link above to view the code behind the scraper.</p>
+        <p>Click the link <a href="https://colab.research.google.com/drive/1HKv_ortQZGQNZeXBoJFpSXVgzYS9G6eR?usp=sharing" style=display:inline-block; id="link3">here</a> to view the code behind the scraper.</p>
         <div class="chart" id="Chart7"></div>
         <p>This website served as a good website to scrape data from as it had a clear embedded table and no restrictive code preventing scrapers.</p>
+    </div>
+    <div class="myWeek5">
+        <h1>Week 5 Portfolio Work</h1>
+        <h2>Below nine graphs are displayed using the ONS API.</h2>
+        <div class="chart" id="Chart8"></div>
+        <div class="chart" id="Chart9"></div>
+        <div class="chart" id="Chart10"></div>
+        <div class="chart" id="Chart11"></div>
+        <div class="chart" id="Chart12"></div>
+        <div class="chart" id="Chart13"></div>
+        <div class="chart" id="Chart14"></div>
+        <div class="chart" id="Chart15"></div>
+        <div class="chart" id="Chart16"></div>
+        <p>Click the link <a href="https://colab.research.google.com/drive/1qRDXRtNxYenSSsN_j2CeKmu2_A_kcR8F" style=display:inline-block; id="link3">here</a> to view the code behind the scraper.</p>  
+    </div>
+    <div class="myWeek7">
+        <h1>Week 7 Portfolio Work</h1>
+        <div class="chart" id="Chart17"></div>
+        <div class="chart" id="Chart18"></div>
+        <p>The Map above illustrates health expenditure by region in Germany in 2020. The North-East appears to spend the least on health, whereas 'Nordrhein-Westfalen' spends markedly more than any other region.</p>
     </div>
 </body>
 
@@ -73,6 +92,19 @@
     var myChart5 = "exchangerate.json"
     var myChart6 = "exchangeratemodified.json"
     var myChart7= "ftse.json"
+    var myChart8= "ONS-AGOL.json"
+    var myChart9= "ONS-AIXR.json"
+    var myChart10= "ONS-MGXB.json"
+    var myChart11= "ONS-MGXD.json"
+    var myChart12= "ONS-YBVI.json"
+    var myChart13= "ONS-YBVY.json"
+    var myChart14= "ONS-YBYE.json"
+    var myChart15= "ONS-YCGN.json"
+    var myChart16= "ONS-YCGR.json"
+    var myChart17= "GermanyTopo.json"
+    var myChart18= "GermanyHealthSpending.json"
+
+   
 
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
@@ -82,6 +114,17 @@
     vegaEmbed('#Chart5', myChart5);
     vegaEmbed('#Chart6', myChart6);
     vegaEmbed('#Chart7', myChart7);
+    vegaEmbed('#Chart8', myChart8);
+    vegaEmbed('#Chart9', myChart9);
+    vegaEmbed('#Chart10', myChart10);
+    vegaEmbed('#Chart11', myChart11);
+    vegaEmbed('#Chart12', myChart12);
+    vegaEmbed('#Chart13', myChart13);
+    vegaEmbed('#Chart14', myChart14);
+    vegaEmbed('#Chart15', myChart15);
+    vegaEmbed('#Chart16', myChart16);
+    vegaEmbed('#Chart17', myChart17);
+    vegaEmbed('#Chart18', myChart18);
 </script>
 
 </html>

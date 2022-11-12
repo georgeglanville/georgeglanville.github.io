@@ -33,7 +33,7 @@
   "encoding": {
     "color": {"field": "Total Expenditure", "type": "quantitative", "scale":{"scheme":"purplered"}},
     "tooltip": [
-      {"field": "properties.NAME_1", "type": "nominal"},
+      {"field": "properties.NAME_1", "type": "nominal", "title": "Region"},
       {"field": "Total Expenditure", "type": "nominal"}
     ]
   },

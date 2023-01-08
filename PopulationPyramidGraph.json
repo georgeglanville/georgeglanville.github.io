@@ -1,0 +1,92 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "UK Population Pyramid, 1950-2100",
+    "subtitle": ["Source: UN"],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "#000000",
+    "subtitleColor": "#020202"
+  },
+  "params": [
+    {
+      "name": "yearSelector",
+      "value": 2000,
+      "bind": {
+        "input": "range",
+        "min": 1950,
+        "max": 2100,
+        "step": 1,
+        "name": "Year:"
+      }
+    }
+  ],
+  
+  
+  "data": {
+    "url": "https://raw.githubusercontent.com/georgeglanville/georgeglanville.github.io/main/Project/populationpyramid.json"
+  },
+  "transform": [
+    {"filter": "datum.Year == yearSelector"},
+    {"calculate": "datum.GenderValue == 2 ? 'Female' : 'Male'", "as": "Gender"}
+  ],
+  "spacing": 0,
+  "hconcat": [
+    {
+      "transform": [{"filter": {"field": "Gender", "equal": "Female"}}],
+      "title": "Female",
+      "mark": "bar",
+      "encoding": {
+        "y": {"field": "Age", "axis": null, "sort": "descending"},
+        "x": {
+          "aggregate": "sum",
+          "field": "Value",
+          "axis": {"format": "s"},
+          "title": "Population",
+          "sort": "descending"
+        },
+        "color": {
+          "field": "Gender",
+          "scale": {"range": ["#675193", "#afd2e9ff"]},
+          "legend": null
+        }
+      }
+    },
+    {
+      "width": 20,
+      "view": {"stroke": null},
+      "mark": {"type": "text", "align": "center"},
+      "encoding": {
+        "y": {
+          "field": "Age",
+          "type": "ordinal",
+          "axis": null,
+          "sort": "descending"
+        },
+        "text": {"field": "Age", "type": "quantitative"}
+      }
+    },
+    {
+      "transform": [{"filter": {"field": "Gender", "equal": "Male"}}],
+      "title": "Male",
+      "mark": "bar",
+      "encoding": {
+        "y": {
+          "field": "Age",
+          "axis": null,
+          "title": null,
+          "sort": "descending"
+        },
+        "x": {
+          "aggregate": "sum",
+          "field": "Value",
+          "axis": {"format": "s"},
+          "title": "Population"
+        },
+        "color": {"field": "Gender", "legend": null}
+      }
+    }
+  ],
+  "config": {"view": {"stroke": null}, "axis": {"grid": false}}
+}

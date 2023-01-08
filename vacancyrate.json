@@ -1,0 +1,64 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Europe Healthcare Expenditure, 2020",
+    "subtitle": ["Source: NHS Vacancy Statistics, September 2022"],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "#000000",
+    "subtitleColor": "#020202"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/georgeglanville/georgeglanville.github.io/main/Project/NurseVacancyRate.csv",
+    "format": {"type": "csv"}
+  },
+  "mark": {
+    "type": "line",
+    "strokeWidth": 2,
+    "point": {"filled": false, "fill": "white"}
+  },
+  "transform": [{"filter": {"selection": "Type"}}],
+  "selection": {
+    "Type": {
+      "type": "single",
+      "fields": ["Type"],
+      "bind": {
+        "input": "select",
+        "options": [null, "Nursing", "Medical", "Total"],
+        "name": "Employment Type:  "
+      }
+    },
+    "grid": {"type": "interval", "bind": "scales"}
+  },
+  "encoding": {
+    "x": {
+      "field": "Date",
+      "type": "temporal",
+      "axis": {
+        "grid": true,
+        "labelSeparation": 10,
+        "domainColor": "dimgrey",
+        "tickColor": "pink"
+      }
+    },
+    "y": {
+      "field": "Vacancy Rate",
+      "type": "quantitative",
+      "axis": {
+        "grid": true,
+        "labelSeparation": 10,
+        "domainColor": "dimgrey",
+        "tickColor": "pink",
+        "format": "%"
+      }
+    },
+    "color": {
+      "field": "Type",
+      "type": "nominal",
+      "legend": {"title": null, "orient": "right", "direction": "vertical"}
+    },
+    "tooltip": [{"field": "Vacancy Rate"}]
+  },
+  "config": {}
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+
+    <!--Main Stylesheet-->
+    <link rel="stylesheet" href="project.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+
+    
+    <script src="https://kit.fontawesome.com/b4a19d9004.js" crossorigin="anonymous"></script>
+
+    <style> @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap'); </style>
+
+  
+
+</head>
+
+<body>
+
+  <div class="navigation">
+    <ul style= "padding-left: 0px;margin-top: 0px;">
+      <li>
+        <a href="index.html">
+          <span class="icon"><i class="fa fa-house-user"></i></span>
+          <span class="title">Home</span>
+        </a>
+      </li>
+
+      <li>
+        <a class="active" href="project.html">
+          <span class="icon"><i class="fa fa-pen-to-square"></i></span>
+          <span class="title">Project</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="portfolio.html">
+          <span class="icon"><i class=" fa fa-chalkboard-user"></i></span>
+          <span class="title">Portfolio</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="https://github.com/georgeglanville/georgeglanville.github.io">
+          <span class="icon"><i class=" fa fa-github"></i></span>
+          <span class="title">Github</span>
+        </a>
+      </li>
+
+     
+      
+
+    </ul>
+</div>
+  
+
+<div class="Project1">  
+
+    <h3>Changing Pressures Upon UK Health Workers</h3>
+
+
+</div>
+
+<div class="Project1" > 
+  <h2>Project Aims:</h2>
+  <p>This project aims to shine a light on the personal experiences of UK health workers in recent years. Whilst there has been abundant media coverage regarding the politics surrounding the NHS, there has been little insight into the personal experiences of staff. Thus, my project aims to convey these increasing pressures, and moreover display the subsequent societal perceptions of health workers. I conclude by suggesting ways to improve these conditions.</p>
+</div> 
+
+<h2>Structural Forces:</h2>
+
+<div class="Project2" >  
+
+ 
+
+  <p>The UK lags behind the majority of Europe in terms of Doctors per 10,000 inhabitants. This illustrates the greater pressures upon UK health workers, in contrast to many European counterparts. </p>
+
+    <div class="chart" id="Chart5"></div>
+
+  <p>These pressures will only be exacerbated by the UK's ageing population. Intuitively, the larger the proportion of elderly people in a society, the greater the pressure on the health service.</p>
+
+    <div class="chart" id="Chart3"></div>
+
+  </div>
+
+  <h2>Societal Perceptions Persist:</h2>
+
+<div class="Project3" >  
+
+
+    <p>The two graphs below convey the results of my twitter sentiment analysis. Tweets containing the words 'doctor' and 'NHS' were scraped. Motivating the word selection, I chose neutral terms such as to not cause bias in the tweets scraped. Moreover, the words were chosen to ensure the relvancy of the tweets in expressing perceptions to UK health workers. 96,219 tweets were scraped for both 2019 and 2021. These two years were selected to ascertain if there was any difference between a pre-pandemic year, and the first full year of the pandemic.</p>
+    <div class="chart" id="Chart1"></div>
+    
+    <div class="chart" id="Chart2"></div>
+    <p>Click the link <a href="https://colab.research.google.com/drive/1oCymL_qfKZN8tObpzAvNEne1Hs926efW#scrollTo=2JL1jGm8Z3f4" style=display:inline-block; id="link1">here</a> to view the code behind the scraper.</p>
+    <p>Click the link <a href="https://colab.research.google.com/drive/10Axl2g5NHk-10RHBR-rCEqauHyCFTniH#scrollTo=sSixqEVNijfT" style=display:inline-block; id="link2">here</a> to view the code behind the sentiment analysis.</p>
+    <p>The two graphs below convey the results of my twitter sentiment analysis. Tweets containing the words 'doctor' and 'NHS' were scraped. Motivating the word selection, I chose neutral terms such as to not cause bias in the tweets scraped. Moreover, the words were chosen to ensure the relevancy of the tweets in expressing perceptions to UK health workers. 96,219 tweets were scraped for both 2019 and 2021. These two years were selected to ascertain if there was any difference between a pre-pandemic year, and the first full year of the pandemic.</p>
+    
+    <p>An additional indicator of perceptions to health workers is illustrated by the vacancy rates for NHS jobs. As shown by the graph below, vacancy rates have rebounded in recent years suggesting working in the health service has become a less attractive profession.</p>
+    <div class="chart" id="Chart4"></div>
+
+  </div>
+
+  <h2>Looking Forward:</h2>
+
+  <div class="Project2" >     
+ 
+    <p>In light of the increasing pressures on the NHS and deflating motivation to become a health worker, the government must look at ways to make the profession more attractive. The regression below indicates a positive correlation between the number of Medical Graduates, and the capital investment in a country's health service. By capital investment we mean investment into new health facilities and equipment. Therefore, a government giving clears signs in their commitment to health service investment makes health-work a more attractive prospect. </p>
+    <div class="chart" id="Chart6"></div>
+   
+</div>
+
+<h2>Data Used:</h2>
+
+<div class="Project2" >     
+  
+  <p>I obtained data from various sources. I downloaded csv files from the United Nations, World Health Organisation, and OECD.</p>
+  <p>The most challenging data gathering aspect of the project was collating the tweets regarding health workers, as data from social media platforms is not easily accessible. I firstly tried to use the Twitter Developer API to scrape tweets. However, gaining access to the historical archive of tweets required academic authorisation. This led me to use ‘snscrape’. There were immediate challenges however, as ‘snscrape’ required Python version 3.9 to work, yet Google Colab only operates on Python version 3.8. Therefore, this forced me to use a workaround to install a later version of python in the Google Colab notebook. This proved successful and ultimately allowed me to scrape tweets. Subsequently, performing sentiment analysis upon these tweets required the use of ‘TextBlob’ which provided a polarity score for each tweet.</p>
+ 
+</div>
+
+<h2>Data Cleaning:</h2>
+
+<div class="Project2" >     
+  
+  <p>Similar to data collation, the twitter analysis again proved the most challenging aspect of data cleaning. Tweets do not come in a clean form, special characters, hashtags, “@” signs, emojis can convolute the data that we want to extract; what is said in the tweet itself. Moreover, cleaning tweets is of particular importance when conducting sentiment analysis, as special characters, etc, can lead to false data inference. Therefore, as shown by the Google Colab notebook above, I used Python to strip the tweets down to just the content wanted.</p>
+ 
+</div>
+
+<h2>Conclusion:</h2>
+
+<div class="Project2" >     
+  
+  <p>To conclude, the UK lags behind the majority of its European counterparts in terms of doctors per 10,000 inhabitants. This will only be exacerbated in decades to come as the UK’s ageing population will place far greater stress upon already overworked health staff. Indeed, public sentiment to health workers did not significantly change in response to the Covid-19 pandemic, and thus any covid-restriction frustration did not likely lead to greater health worker abuse. However, the pressures upon health workers in recent years has shown to dissuade people from the profession with record vacancy rates in recent years. Ultimately there is shown to be some positive correlation between investment in capital for the health system, and the number of medical students graduating per capita.</p>
+ 
+</div>
+
+
+
+</body>
+
+<script>
+
+  
+    var myChart1 = "Twitter2019.json";
+    var myChart2 = "Twitter2021.json";
+    var myChart3 = "PopulationPyramidGraph.json";
+    var myChart4 = "vacancyrate.json";
+    var myChart5 = "doctoreurope.json";
+    var myChart6 = "regression.json";
+
+
+    vegaEmbed('#Chart1', myChart1);
+    vegaEmbed('#Chart2', myChart2);
+    vegaEmbed('#Chart3', myChart3);
+    vegaEmbed('#Chart4', myChart4);
+    vegaEmbed('#Chart5', myChart5);
+    vegaEmbed('#Chart6', myChart6);
+</script>
+
+
+
+</html>

@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title for the page -->
+    <title>Portfolio</title>
+
+    <!-- Link to my style sheet -->
+    <link rel="stylesheet" href="Portfolio.css">
+
+    <!--The next three lines allow the Vega embed-->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+
+    <script src="https://kit.fontawesome.com/b4a19d9004.js" crossorigin="anonymous"></script>
+
+    <style> @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap'); </style>
+
+</head>
+
+
+
+<body>
+    
+    <div class="navigation">
+        <ul style= "padding-left: 0px;margin-top: 0px;">
+          <li>
+            <a href="index.html">
+              <span class="icon"><i class="fa fa-house-user"></i></span>
+              <span class="title">Home</span>
+            </a>
+          </li>
+    
+          <li>
+            <a href="project.html">
+              <span class="icon"><i class="fa fa-pen-to-square"></i></span>
+              <span class="title">Project</span>
+            </a>
+          </li>
+    
+          <li>
+            <a class="active" href="portfolio.html">
+              <span class="icon"><i class=" fa fa-chalkboard-user"></i></span>
+              <span class="title">Portfolio</span>
+            </a>
+          </li>
+    
+          <li>
+            <a href="https://github.com/georgeglanville/georgeglanville.github.io">
+              <span class="icon"><i class=" fa fa-github"></i></span>
+              <span class="title">Github</span>
+            </a>
+        </li>
+    
+        </ul>
+    </div>
+
+    <div class="myWeek1" >
+        <h3>Data Science Portfolio</h3>
+       
+        <h1>Week 1: Setting up web page, and embedding two charts</h1>
+    
+        <p>The Line Chart below illustrates the progression of interest rates faced by consumers, in terms of mortgage rates and credit card rates.</p>
+        <div class="chart" id="Chart1"></div>
+
+      
+        <p>The second chart conveys drug deaths in Scotland, ordered by what type of substance was responsible for the fatality.</p>
+        <div class="chart" id="Chart2"> </div>
+    </div> 
+    <div class="myWeek2">
+        <h1>Week 2: one from the Financial Times, and your first original</h1>
+        
+        <div class="chart" id="Chart3"></div>
+
+        <p> Below I have amended the Financial Times chart to incorporate global GDP</p>
+        <div class="chart" id="Chart4"></div>
+        <p> Although the original IMF chart may suggest investing in 2022 is the 'riskiest' option, setting this funding as a percentage of global GDP, as illustrated by Chart 2, shows that 1984 was the 'riskiest' time to invest.</p>
+    </div>
+    <div class="myWeek3">
+        <h1>Week 3: Inline data objects and visual encodings</h1>
+        <div class="chart" id="Chart5"></div>
+        <p> The Chart above illustrates the progession of both the Pound to Dollar Exchange Rate, and the Pound to Euro Exchange Rate, from 2007 to 2022. </p>
+        <div class="chart" id="Chart6"></div>
+        <p> The Chart above has been modified to have a visual coding of 'color' rather than 'column'. I changed the visual encoding as the modified chart allows easier comparison between the different exchange rates.</p>
+    </div>
+    <div class="myWeek4">
+        <h1>Week 4: Implement a data scraper of your own. Any source, any data</h1>
+        <h2> FTSE 100 Top 20 Risers, 21/10/22</h2>
+        <p>Click the link <a href="https://colab.research.google.com/drive/1HKv_ortQZGQNZeXBoJFpSXVgzYS9G6eR?usp=sharing" style=display:inline-block; id="link3">here</a> to view the code behind the scraper.</p>
+        <div class="chart" id="Chart7"></div>
+        <p>This website served as a good website to scrape data from as it had a clear embedded table and no restrictive code preventing scrapers.</p>
+    </div>
+    <div class="myWeek5">
+        <h1>Week 5: build a dashboard.</h1>
+        <h2>Below nine graphs are displayed using the ONS API.</h2>
+        <div class="chart" id="Chart8"></div>
+        <div class="chart" id="Chart9"></div>
+        <div class="chart" id="Chart10"></div>
+        <div class="chart" id="Chart11"></div>
+        <div class="chart" id="Chart12"></div>
+        <div class="chart" id="Chart13"></div>
+        <div class="chart" id="Chart14"></div>
+        <div class="chart" id="Chart15"></div>
+        <div class="chart" id="Chart16"></div>
+        <p>Click the link <a href="https://colab.research.google.com/drive/1qRDXRtNxYenSSsN_j2CeKmu2_A_kcR8F" style=display:inline-block; id="link3">here</a> to view the code behind the scraper.</p>  
+    </div>
+    <div class="myWeek7">
+        <h1>Week 7: a base map and a choropleth</h1>
+        <p>The Map below illustrates Germany by district.</p>
+        <div class="chart" id="Chart17"></div>
+        <p>The Map below illustrates health expenditure by region in Germany in 2020.</p>
+        <div class="chart" id="Chart18"></div>
+        <p>Observing the map above, the North-East of Germany appears to spend the least on health, whereas 'Nordrhein-Westfalen' spends markedly more than any other region.</p>
+    </div>
+    <div class="myWeek8">
+        <h1>Week 8: Festival of Economics</h1>
+        <p>Attending the Festival of Economics: "What Next for Central Banks?", a key argument made was that the UK is experiencing unemployment rates at a level not seen since the 1970s, and has reached a Debt:GDP ratio of 100%.</p>
+        <p>The Map below conveys the Unemployment Rate in the UK from 1971-2022.</p>
+        <div class="chart" id="Chart19"></div>
+        <p>The Map below illustrates the Debt:GDP ratio for the UK, 1950-2020.</p>
+        <div class="chart" id="Chart20"></div>
+        <p>This aforementioned argument is clealry corroborated by both graphs above. Simple observation from the first graph conveys how the UK is at unemployment levels around 4%, similar to that of the 1970s. Liekwise the second graph demonstrates that the UK has reached a debt:gdp ratio of 100% as of 2020.</p>
+    </div>
+    <div class="myWeek8">
+        <h1>Week 9: Advanced charts</h1>
+        <p>The chart below regresses Medical Graduates on Capital Expenditure, indicating a slight positive correlation </p>
+        <div class="chart" id="Chart21"></div>
+        <p>The Bubble chart below illustrates GDP vs life expectancy, with the size of the bubbles corresponding to population size.</p>
+        <div class="chart" id="Chart22"></div>
+        
+    </div>
+    <div class="myWeek8">
+      <h1>Week 10/11: Machine Learning</h1>
+      <h2>Supervised Machine Learning:</h2>
+      <p>Hypothesis: Using supervised machine learning run a regression of life expectancy on GDP to predict relationship. I expect a postive relationship. </p>
+      <img src="Regression.jpg">
+      <p>Click the link <a href="https://colab.research.google.com/drive/1B3qyyApgAAaCd6ttz1NxOWrapS4_l_Zq#scrollTo=DvbvK1pL7q2T" style=display:inline-block; id="link3">here</a> to view the code behind the regression.</p>  
+      <p>Results: There appears to be a positive relationship between GDP and life expectancy.</p>
+
+      <h2>Unsupervised Machine Learning:</h2>
+      <p>Hypothesis: Using unsupervised machine learning, countries can be clustered into 4 groups based on their populations and life expectancy.I expect the clusters to illustrate that life expectancy does not depend on population size.</p>
+      <img src="Cluster.jpg">
+      <p>Click the link <a href="https://colab.research.google.com/drive/1RbCXw9qXde8K4gXqAjflshElLj14zIQK#scrollTo=fU5ze50s-9fN" style=display:inline-block; id="link3">here</a> to view the code behind the cluster.</p>  
+      <p>Results: Population size appears to have no basis on life expectancy.</p>
+      
+  </div>
+</body>
+
+
+<script>
+    //Define charts:
+    var myChart1 = "hh_interestRatesDebts.json";
+    var myChart2 = "chartextreme4.json";
+    var myChart3 = "IMFlending.json";
+    var myChart4 = "IMFpcGDP.json";
+    var myChart5 = "exchangerate.json"
+    var myChart6 = "exchangeratemodified.json"
+    var myChart7= "ftse.json"
+    var myChart8= "ONS-AGOL.json"
+    var myChart9= "ONS-AIXR.json"
+    var myChart10= "ONS-MGXB.json"
+    var myChart11= "ONS-MGXD.json"
+    var myChart12= "ONS-YBVI.json"
+    var myChart13= "ONS-YBVY.json"
+    var myChart14= "ONS-YBYE.json"
+    var myChart15= "ONS-YCGN.json"
+    var myChart16= "ONS-YCGR.json"
+    var myChart17= "GermanyTopo.json"
+    var myChart18= "GermanyHealthSpending.json"
+    var myChart19= "unemploymentUK.json"
+    var myChart20= "debtgdp.json"
+    var myChart21= "regression.json"
+    var myChart22= "bubble.json"
+
+   
+
+    // Embed charts:
+    vegaEmbed('#Chart1', myChart1);
+    vegaEmbed('#Chart2', myChart2);
+    vegaEmbed('#Chart3', myChart3);
+    vegaEmbed('#Chart4', myChart4);
+    vegaEmbed('#Chart5', myChart5);
+    vegaEmbed('#Chart6', myChart6);
+    vegaEmbed('#Chart7', myChart7);
+    vegaEmbed('#Chart8', myChart8);
+    vegaEmbed('#Chart9', myChart9);
+    vegaEmbed('#Chart10', myChart10);
+    vegaEmbed('#Chart11', myChart11);
+    vegaEmbed('#Chart12', myChart12);
+    vegaEmbed('#Chart13', myChart13);
+    vegaEmbed('#Chart14', myChart14);
+    vegaEmbed('#Chart15', myChart15);
+    vegaEmbed('#Chart16', myChart16);
+    vegaEmbed('#Chart17', myChart17);
+    vegaEmbed('#Chart18', myChart18);
+    vegaEmbed('#Chart19', myChart19);
+    vegaEmbed('#Chart20', myChart20);
+    vegaEmbed('#Chart21', myChart21);
+    vegaEmbed('#Chart22', myChart22);
+</script>
+
+</html>
+
+

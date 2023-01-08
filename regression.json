@@ -1,0 +1,58 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/georgeglanville/georgeglanville.github.io/main/Project/regression.csv"
+  },
+  "title": {
+    "text": "Regression of Medical Graduates on Capital Expenditure",
+    "subtitle": "Source: OECD 2019",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "layer": [
+    {
+      "mark": {"type": "point", "filled": true},
+      "encoding": {
+        "x": {
+          "field": "Capital Expend",
+          "type": "quantitative",
+          "title": "Capital Expenditure as a share of GDP"
+        },
+        "y": {
+          "field": "Grad",
+          "type": "quantitative",
+          "title": "Medical Graduates per 100,000"
+        }
+      }
+    },
+    {
+      "mark": {"type": "line", "color": "firebrick"},
+      "transform": [{"regression": "Grad", "on": "Capital Expend"}],
+      "encoding": {
+        "x": {"field": "Capital Expend", "type": "quantitative"},
+        "y": {"field": "Grad", "type": "quantitative"}
+      }
+    },
+    {
+      "transform": [
+        {"regression": "Grad", "on": "Capital Expend", "params": true},
+        {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+      ],
+      "mark": {
+        "type": "text",
+        "color": "firebrick",
+        "x": "width",
+        "align": "right",
+        "y": -5
+      },
+      "encoding": {"text": {"type": "nominal", "field": "R2"}}
+    }
+  ],
+"encoding": {
+  "tooltip": [{"field": "Grad", "title":"Medical Graduates per 100,000"},{"field": "Capital Expend", "title":"Capital Expenditure as a share of GDP"}]
+},
+
+  "config": {}
+}

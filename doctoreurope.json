@@ -1,0 +1,66 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Doctors per 10,000 across Europe, 2000-2018",
+    "subtitle": ["Source: WHO"],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "#000000",
+    "subtitleColor": "#020202"
+  },
+  "params": [
+    {
+      "name": "yearSelector",
+      "value": 2015,
+      "bind": {
+        "input": "range",
+        "min": 2000,
+        "max": 2018,
+        "step": 1,
+        "name": "Year:"
+      }
+    }
+  ],
+  "width": 280,
+  "height": 295,
+  "view": {"stroke": "transparent"},
+  "data": {
+    "url": "https://raw.githubusercontent.com/georgeglanville/georgeglanville.github.io/main/Project/WHOeuropedoctors.csv",
+    "format": {"type": "csv"}
+  },
+  "projection": {"type": "mercator"},
+  "transform": [
+    {"filter": "datum.Year == yearSelector"},
+    {
+      "lookup": "Country",
+      "from": {
+        "data": {
+          "url": "https://gist.githubusercontent.com/milafrerichs/69035da4707ea51886eb/raw/4cb1783c2904f52cbb8a258ee96031f9054d155b/eu.topojson",
+          "format": {"type": "topojson", "feature": "europe"}
+        },
+        "key": "properties.name",
+        "fields": ["properties", "geometry", "type"]
+      }
+    }
+  ],
+  "mark": "geoshape",
+  "encoding": {
+    "tooltip": [
+      {"field": "properties.name", "title": "Country"},
+      {"field": "Value", "title": "Doctors per 10,000"}
+    ],
+    "color": {
+      "condition": {
+        "test": "datum['Value'] === null || datum['Year'] === null",
+        "value": "#aaa"
+      },
+      "field": "Value",
+      "legend": {"title": null, "orient": "right", "direction": "vertical"},
+      "type": "quantitative",
+      "scale": {"scheme": "bluepurple"},
+      "title": "Doctors per 10,000"
+    }
+  },
+  "config": {}
+}

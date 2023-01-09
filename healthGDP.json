@@ -1,0 +1,44 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Health Expenditure as a % of GDP - click on legend",
+    "subtitle": "Source: WHO, API Code: GHED_CHEGDP_SHA2011",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/georgeglanville/georgeglanville.github.io/main/Project/healthexpenditureGDP.json",
+    "format": {"type": "json", "property": "value"}
+  },
+  "height": 300,
+  "width": 300,
+  "mark": {"type": "line", "point": false},
+  "selection": {
+    "region": {"type": "multi", "fields": ["SpatialDim"], "bind": "legend"}
+  },
+  "encoding": {
+    "x": {
+      "field": "TimeDimensionValue",
+      "type": "temporal",
+      "title": "Year",
+      "axis": {"grid": true}
+    },
+    "y": {
+      "field": "NumericValue",
+      "type": "quantitative",
+      "title": "Percentage of GDP",
+      "axis": {"grid": true}
+    },
+    "color": {
+      "field": "SpatialDim",
+      "type": "nominal",
+      "scale": {"scheme": "viridis"},
+      "title": null,
+      "legend": {"orient": "right", "columns": 2, "fillColor": "#FcFdFd"}
+    },
+    "opacity": {"condition": {"selection": "region", "value": 1}, "value": 0.1}
+  },
+  "config": {}
+}

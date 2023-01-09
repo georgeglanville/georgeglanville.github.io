@@ -1,0 +1,29 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Twitter Sentiment Analysis 2021",
+    "subtitle": ["Source: 96,219 tweets scraped from snscrape.", 
+    "Tweets assigned polarity score by TextBlob and sorted into ranges."],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "#010001",
+    "subtitleColor": "#000000"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/georgeglanville/georgeglanville.github.io/main/Project/Twitter%20Analyser%202021.csv"
+  },
+  "mark": {"type": "bar",
+  "color": "#afd2e9ff"},
+  "encoding": {
+    "x": {
+      "field": "Range",
+      "type": "nominal",
+      "sort": {"field": "Order", "order": "ascending"},
+      "axis": {"labelAngle": 315}
+    },
+    "y": {"field": "Value", "type": "quantitative","title": "Frequency of Tweets in Range"},
+    "tooltip": [{"field": "Value", "title":"Frequency"}]
+  },
+  "config": {}
+}
